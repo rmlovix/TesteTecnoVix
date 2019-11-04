@@ -1,4 +1,4 @@
 #StarWarsRepo
-![./lontra.jpg](Lontra)
+![Lontra](lontra.jpg)
 
 Este Repositório é um exemplo do curso de Git e Github
