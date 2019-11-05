@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Módulo 2 Curso Javascript </title>
+
+</head>
+
+<body>
+        <div>
+                <button>Adicionar Quadrado</button>
+                <div class="boxes"></div>  
+        </div>
+    <script>
+        let btn = document.querySelector('button')
+btn.addEventListener('click', criarQuadrado)
+
+
+function criarQuadrado() {
+  var boxElement = document.createElement('div')
+
+  boxElement.style.width = '100px';
+  boxElement.style.height = '100px';
+  boxElement.style.backgroundColor = "#f00";
+  boxElement.style.float = 'right';
+
+  document.querySelector('.boxes').appendChild(boxElement)
+}
+    </script> 
+
+</body>
+
+</html>
